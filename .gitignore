@@ -1,0 +1,16 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
