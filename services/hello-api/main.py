@@ -9,3 +9,7 @@ def health():
 @app.get("/hello")
 def hello():
     return {"message": "Hello from HydroLock platform!"}
+
+@app.get("/hello")
+def hello():
+    return {"message": "Hello from HydroLock platform v2!"}
